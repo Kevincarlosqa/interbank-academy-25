@@ -1,0 +1,33 @@
+# Dependencias de Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Archivos generados por la compilación de TypeScript
+dist/
+*.js.map
+*.tsbuildinfo
+
+# Archivos de configuración del entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos temporales y de caché
+*.log
+*.log.*
+*.cache
+.DS_Store
+Thumbs.db
+
+# Carpetas de pruebas o cobertura (si llegas a usarlas)
+coverage/
+.nyc_output/
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

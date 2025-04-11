@@ -1,0 +1,14 @@
+interbank-transactions/
+├── data/                       # Carpeta para archivos CSV
+│   └── data.csv                # Data de transacciones en CSV
+├── src/                        # Código fuente en TypeScript
+│   ├── main.ts                 # Archivo principal del programa
+│   ├── csvReader.ts            # Lógica para leer y parsear el CSV
+│   ├── transactionProcessor.ts # Procesamiento de transacciones
+│   ├── reportGenerator.ts      # Generación del reporte
+│   └── types.ts                # Definiciones de tipos
+├── dist/                       # Archivos JavaScript compilados
+├── package.json                # Dependencias y scripts
+├── tsconfig.json               # Configuración de TypeScript
+├── README.md                   # Documentación del proyecto
+└── .gitignore                  # Archivos ignorados por Git
